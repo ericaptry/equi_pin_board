@@ -1,8 +1,9 @@
+= image_tag @pin.image.url(:medium)
 %h1= @pin.title
-%p= @p.description
+%p= @pin.description
 %p
 Submitted by
-= @p.user.email
+= @pin.user.email
 
 %br/
 
